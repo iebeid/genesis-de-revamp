@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="cxf-utils.js"></script>
+        <script src="GenesisServiceImplService.js"></script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            function runGenesis_Success_Callback(){
+                alert("Success");
+            }
+            function runGenesis_Error_Callback(){
+                alert("Fail");
+            }
+            var argument0 = "Code";
+            var cxfjsutils_object = cxfjsutils.create();
+            var serialized_inputs = webservice_genesis_i3akef_com__GenesisServiceInterface_webservice_genesis_i3akef_com__GenesisServiceImplPort.prototype.runGenesis_serializeInput(cxfjsutils_object,argument0);
+            webservice_genesis_i3akef_com__GenesisServiceInterface_webservice_genesis_i3akef_com__GenesisServiceImplPort.prototype.runGenesis(runGenesis_Success_Callback,runGenesis_Error_Callback,serialized_inputs);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+com.i3akef.genesis.runtime.StringVal
+com.i3akef.genesis.runtime.OpVal
+com.i3akef.genesis.runtime.StickyNote
+com.i3akef.genesis.runtime.GenesisVal
+com.i3akef.genesis.runtime.GV
+com.i3akef.genesis.runtime.NumberVal
+com.i3akef.genesis.runtime.TruthVal
+com.i3akef.genesis.runtime.IntVal
+com.i3akef.genesis.runtime.DoubleVal
